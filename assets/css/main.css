@@ -1343,7 +1343,7 @@ textarea:focus {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgb(255, 92, 0);
+  background-color: #0D80CE;
   transition: all 0.5s ease;
   transform: translateX(-100%);
   border-radius: 2px;
@@ -1398,7 +1398,7 @@ textarea:focus {
   fill: var(--rs-black);
 }
 .rs-btn.has-bg-transparent:hover {
-  border-color: var(--rs-theme-orange);
+  border-color: var(--rs-theme-blue);
 }
 .rs-btn.has-bg-transparent.has-theme-medium-yellow {
   background: transparent;
@@ -1664,10 +1664,10 @@ textarea:focus {
   height: unset;
 }
 .rs-btn.has-text:hover {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
 }
 .rs-btn.has-text:hover .icon-box svg {
-  fill: var(--rs-theme-orange);
+  fill: var(--rs-theme-blue);
 }
 .rs-btn.has-text .icon-box svg {
   fill: var(--rs-black);
@@ -3130,8 +3130,8 @@ textarea:focus {
   color: var(--rs-theme-light-blue);
 }
 .rs-section-subtitle.has-stroke {
-  -webkit-text-stroke-color: rgba(234, 85, 1, 0.65);
-  stroke: rgba(234, 85, 1, 0.65);
+  -webkit-text-stroke-color: #FEBA0282;
+  stroke: #FEBA0262;
   letter-spacing: 4.6px;
   color: rgba(2, 1, 1, 0);
   -webkit-text-stroke-width: 1px;
@@ -14556,11 +14556,11 @@ html.lenis body {
   }
 }
 .rs-about-ten .rs-about-counter-wrapper {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-blue);
   padding: 30px 25px 30px 25px;
   border-radius: 30px 30px 30px 30px;
   position: absolute;
-  right: 0;
+  right: -18px;
   bottom: 8px;
 }
 @media only screen and (max-width: 991px) {
@@ -14926,7 +14926,7 @@ html.lenis body {
 .rs-about-twelve .rs-about-content {
   padding: 40px 50px 40px 40px;
   background: var(--rs-bg-primary);
-  border-bottom: 4px solid var(--rs-theme-orange);
+  border-bottom: 4px solid var(--rs-theme-blue);
   border-radius: 4px;
   margin-inline-start: 190px;
   margin-top: -100px;
@@ -18758,7 +18758,7 @@ html.lenis body {
   transform: translate(-10px, -50%);
 }
 .rs-services-one .rs-services-tab .nav-link.active {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-blue);
   color: var(--rs-white);
 }
 .rs-services-one .rs-services-tab .nav-link.active svg {
@@ -18770,7 +18770,7 @@ html.lenis body {
   transform: translate(20px, -50%);
 }
 .rs-services-one .rs-services-tab .nav-link:hover {
-  background: var(--rs-theme-orange);
+  background: #F9C001;
   color: var(--rs-white);
 }
 .rs-services-one .rs-services-tab .nav-link:hover svg {
@@ -18818,7 +18818,7 @@ html.lenis body {
 }
 .rs-services-one .rs-services-tab-list ul li::before {
   content: "\eb7b";
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
   font-size: 15px;
   margin: 0;
   font-weight: 400;
@@ -18827,7 +18827,7 @@ html.lenis body {
   inset-inline-start: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--rs-theme-orange);
+  border: 2px solid var(--rs-theme-blue);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -18984,7 +18984,7 @@ html.lenis body {
   margin-bottom: 12px;
 }
 .rs-services-two .rs-services-title a:hover {
-  color: var(--rs-theme-red);
+  color: var(--rs-theme-blue);
 }
 .rs-services-two .rs-services-navigation {
   display: flex;
@@ -19137,19 +19137,19 @@ html.lenis body {
   color: #0C3C61;
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-square-btn {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-blue);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-square-btn svg path {
   fill: var(--rs-white);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-text-btn {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-services-number::before {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-blue);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-services-number::after {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
 }
 .rs-services-three.has-theme-orange .rs-services-content {
   background: var(--rs-bg-primary);
@@ -19160,7 +19160,7 @@ html.lenis body {
   }
 }
 .rs-services-three.has-theme-orange .rs-services-title a:hover {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
 }
 .rs-services-three.has-theme-orange .rs-services-number::before {
   background: #EDEDEF;
@@ -19200,7 +19200,7 @@ html.lenis body {
   color: var(--rs-black);
 }
 .rs-services-three.has-theme-orange .rs-services-navigation button:hover {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-blue);
   color: var(--rs-white);
 }
 .rs-services-four {
@@ -20825,7 +20825,7 @@ html.lenis body {
 .rs-portfolio-one .rs-portfolio-title {
   font-size: 30px;
   color: var(--rs-white);
-  margin: 15px 0 25px;
+  /* margin: 15px 0 25px; */
 }
 @media only screen and (max-width: 480px) {
   .rs-portfolio-one .rs-portfolio-title {
@@ -22347,7 +22347,7 @@ html.lenis body {
   position: relative;
   z-index: 2;
   padding: 40px 50px 50px 50px;
-  border-top: 4px solid var(--rs-theme-orange);
+  border-top: 4px solid var(--rs-theme-blue);
   border-radius: 3px 3px 3px 3px;
   background: var(--rs-white);
   margin-inline-start: 30px;
@@ -22392,7 +22392,7 @@ html.lenis body {
 }
 .rs-contact-one.has-white .rs-contact-input input:focus,
 .rs-contact-one.has-white .rs-contact-input textarea:focus {
-  border-color: var(--rs-theme-orange);
+  border-color: var(--rs-theme-blue);
 }
 .rs-contact-one.has-white .rs-btn:hover {
   background: var(--rs-black);
@@ -22860,8 +22860,8 @@ html.lenis body {
   color: rgba(255, 255, 255, 0.8);
 }
 .rs-contact-five .rs-contact-btn .rs-btn:hover {
-  background: var(--rs-theme-orange);
-  border-color: var(--rs-theme-orange);
+  background: var(--rs-theme-blue);
+  border-color: var(--rs-theme-blue);
 }
 .rs-contact-five .rs-contact-icon svg {
   width: 20px;
@@ -22880,7 +22880,7 @@ html.lenis body {
   font-weight: 500;
 }
 .rs-contact-five .rs-contact-item h6 a:hover {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
 }
 .rs-contact-five .rs-contact-shape svg {
   width: 60px;
@@ -23041,7 +23041,7 @@ html.lenis body {
   border-radius: 4px;
 }
 .rs-contact-seven .rs-contact-input input:focus {
-  border-color: var(--rs-theme-orange);
+  border-color: var(--rs-theme-blue);
 }
 .rs-contact-seven .rs-contact-input textarea {
   height: 150px;
@@ -23050,10 +23050,10 @@ html.lenis body {
   border-radius: 4px;
 }
 .rs-contact-seven .rs-contact-input textarea:focus {
-  border-color: var(--rs-theme-orange);
+  border-color: var(--rs-theme-blue);
 }
 .rs-contact-seven .rs-contact-btn .rs-btn:hover {
-  background: rgb(255, 92, 0);
+  background: var(--rs-theme-blue);
 }
 .rs-contact-eight .rs-contact-wrapper {
   position: relative;
@@ -24676,7 +24676,7 @@ html.lenis body {
   transition: 0.3s;
   width: 42px;
   height: 48px;
-  background: var(--rs-theme-orange);
+  background: #FFBB02;
   display: flex;
   align-items: center;
   justify-content: center;
