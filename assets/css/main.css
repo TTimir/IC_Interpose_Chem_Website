@@ -3093,7 +3093,7 @@ textarea:focus {
   }
 }
 .rs-section-subtitle.has-theme-orange {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-blue);
 }
 .rs-section-subtitle.has-theme-red {
   color: var(--rs-theme-red);
