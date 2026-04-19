@@ -47,7 +47,7 @@
     }
 
     /* Append settings HTML  */
-    rs_settings_append(true); /* if you want to enable dark mode, send "true" */
+    // rs_settings_append(true); /* if you want to enable dark mode, send "true" */
 
     /* Event listeners  */
     // $(".rs-theme-settings-open-btn").on("click", function () {
@@ -63,42 +63,42 @@
     let rtl_setting = rs_rtl === 'rtl' ? true : false;
 
     /* settings append in body Js */
-    function rs_settings_append($x) {
-        var settings = $('body');
-        /* no need switcher then add 'd-none' */
-        var settings_html = `<div class="rs-theme-settings-area">
-        <div class="rs-theme-wrapper">
-        <div class="rs-theme-header text-center">
-           <h4 class="rs-theme-header-title">Template Settings</h4>
-        </div>
-        <!--  RTL SETTINGS  mb-20 -->
-        <div class="rs-theme-dir">
-           <label class="rs-theme-dir-main" for="rs-dir-toggler" dir="rtl">
-              <span class="rs-theme-dir-rtl"> RTL</span>
-                 <input type="checkbox" id="rs-dir-toggler">
-                 <i class="rs-theme-dir-slide"></i>
-              <span class="rs-theme-dir-ltr"> LTR</span>
-           </label>
-        </div>
+    // function rs_settings_append($x) {
+    //     var settings = $('body');
+    //     /* no need switcher then add 'd-none' */
+    //     var settings_html = `<div class="rs-theme-settings-area">
+    //     <div class="rs-theme-wrapper">
+    //     <div class="rs-theme-header text-center">
+    //        <h4 class="rs-theme-header-title">Template Settings</h4>
+    //     </div>
+    //     <!--  RTL SETTINGS  mb-20 -->
+    //     <div class="rs-theme-dir">
+    //        <label class="rs-theme-dir-main" for="rs-dir-toggler" dir="rtl">
+    //           <span class="rs-theme-dir-rtl"> RTL</span>
+    //              <input type="checkbox" id="rs-dir-toggler">
+    //              <i class="rs-theme-dir-slide"></i>
+    //           <span class="rs-theme-dir-ltr"> LTR</span>
+    //        </label>
+    //     </div>
 
-        <div class="rs-theme-settings">
-           <div class="rs-theme-settings-wrapper">
-              <div class="rs-theme-settings-open">
-                 <a class="rs-theme-settings-open-btn"
-                   href="assets/IC_Brocher.pdf"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                  <span class="rs-theme-settings-gear">
-                    <i class="fa-light fa-book"></i>
-                  </span>
-                </a>
-              </div>
-           </div>
-        </div>
-     </div>
-         </div>`;
-        settings.append(settings_html);
-    }
+    //     <div class="rs-theme-settings">
+    //        <div class="rs-theme-settings-wrapper">
+    //           <div class="rs-theme-settings-open">
+    //              <a class="rs-theme-settings-open-btn"
+    //                href="assets/IC_Brocher.pdf"
+    //                target="_blank"
+    //                rel="noopener noreferrer">
+    //               <span class="rs-theme-settings-gear">
+    //                 <i class="fa-light fa-book"></i>
+    //               </span>
+    //             </a>
+    //           </div>
+    //        </div>
+    //     </div>
+    //  </div>
+    //      </div>`;
+    //     settings.append(settings_html);
+    // }
     // rtl setting end
 
 
