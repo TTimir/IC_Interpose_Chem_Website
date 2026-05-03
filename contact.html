@@ -737,6 +737,26 @@
         .form-description {
             margin-bottom: 30px;
         }
+        
+        /* Responsive iframe styling */
+        .rs-contact-form iframe {
+            width: 100%;
+            max-width: 640px;
+            height: 500px;
+            border: none;
+        }
+        
+        @media (max-width: 768px) {
+            .rs-contact-form iframe {
+                height: 600px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .rs-contact-form iframe {
+                height: 700px;
+            }
+        }
     </style>
 </body>
 
