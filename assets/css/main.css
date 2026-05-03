@@ -16506,7 +16506,7 @@ html.lenis body {
   }
 }
 .rs-feature-one .rs-feature-item:hover {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-blue );
 }
 .rs-feature-one .rs-feature-item:hover .rs-feature-icon svg {
   animation: rs-fold linear 0.3s;
@@ -16517,7 +16517,7 @@ html.lenis body {
 .rs-feature-one .rs-feature-item:hover .rs-feature-title {
   color: var(--rs-white);
 }
-.rs-feature-one .rs-feature-item:hover .rs-feature-descrip p {
+.rs-feature-one .rs-feature-item:hover .rs-feature-desc {
   color: rgba(255, 255, 255, 0.85);
 }
 .rs-feature-one .rs-feature-icon svg {
