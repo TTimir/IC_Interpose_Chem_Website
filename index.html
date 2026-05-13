@@ -386,13 +386,7 @@
                                                     <div class="rs-banner-descrip">
                                                         <p>From R&D to scalable manufacturing and quality assurance, we deliver reliable 
                                                             intermediates that help partners develop safe, effective medicines. </p>
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    </div>
+                                                        </div>
                                                     <!-- <div class="rs-banner-info-btn">
                                                         <div class="rs-banner-btn">
                                                             <a class="rs-btn has-theme-light-blue has-icon has-bg"
@@ -1487,7 +1481,6 @@
     <script src="assets/js/vendor/odometer.min.js"></script>
     <script src="assets/js/main.js"></script>
     
-    <!-- Custom CSS for Hero Overlay -->
     <style>
         .rs-banner-overlay {
             position: absolute;
@@ -1498,6 +1491,28 @@
             background: rgba(0, 0, 0, 0.54);
             pointer-events: none;
             z-index: 1;
+        }
+        
+        .rs-banner-nine .swiper-slide {
+            min-height: 700px;
+            height: 700px;
+        }
+        
+        .rs-banner-nine .rs-banner-item-wrapper {
+            min-height: 700px;
+            height: 700px;
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .rs-banner-nine .swiper-slide {
+                min-height: 600px;
+                height: 600px;
+            }
+            
+            .rs-banner-nine .rs-banner-item-wrapper {
+                min-height: 600px;
+                height: 600px;
+            }
         }
     </style>
 </body>

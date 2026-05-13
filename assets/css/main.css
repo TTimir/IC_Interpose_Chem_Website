@@ -160,7 +160,7 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("../../../css2");
+/*@import url("../../../css2");*/
 .offcanvas-overlay, a,
 .btn,
 button,
@@ -12331,7 +12331,7 @@ html.lenis body {
 .rs-footer-widget-links ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 8px;
 }
 .rs-footer-widget-links ul li {
   list-style: none;
@@ -12583,7 +12583,7 @@ html.lenis body {
   }
 }
 .rs-footer-two .rs-footer-top {
-  padding: 70px 0 80px;
+  padding: 40px 0 50px;
 }
 @media only screen and (max-width: 767px) {
   .rs-footer-two .rs-footer-top {
@@ -12673,7 +12673,7 @@ html.lenis body {
 }
 .rs-footer-two .rs-footer-widget-title {
   color: var(--rs-white);
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .rs-footer-two .rs-footer-widget-meta p {
   color: var(--rs-text-secondary);
@@ -12683,7 +12683,7 @@ html.lenis body {
   color: var(--rs-theme-yellow);
 }
 .rs-footer-two .rs-footer-widget-address {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .rs-footer-two .rs-footer-widget-address a {
   color: var(--rs-text-secondary);
@@ -12900,7 +12900,7 @@ html.lenis body {
 /* 3.4.1 Copyright Style
 /*----------------------------------------*/
 .rs-copyright-one {
-  padding: 20px 0 20px;
+  padding: 8px 0 8px;
   border-top: 1px solid rgba(255, 255, 255, 0.14);
 }
 .rs-copyright-one .rs-footer-copyright a:hover {
