@@ -12624,7 +12624,6 @@ html.lenis body {
 }
 .rs-footer-two .rs-footer-widget-description {
   color: var(--rs-text-secondary);
-  margin-bottom: 40px;
 }
 .rs-footer-two .descrip {
   color: var(--rs-text-secondary);
@@ -28500,3 +28499,16 @@ a.ui-button:active {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Custom certificate logo styling */
+.rs-footer-certificate img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.rs-footer-certificate img:hover {
+  transform: scale(1.05);
+}
+/* Fix footer widget alignment */
+.rs-footer-widget {
+  min-height: 100%;
+}
